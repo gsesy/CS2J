@@ -1,0 +1,24 @@
+CS2J has two components:
+
+- CSharpTranslator:
+     This builds the cs2j.exe executable.  This executable runs
+     directly under Windows and under Mono on other platforms
+     (http://www.mono-project.com/Main_Page).
+
+     This work is licensed under the MIT / X Window System License
+     (http://opensource.org/licenses/mit-license.php). 
+
+     With this licensing then the produced Java code should be
+     completely unencumbered and you can do what you want with it.
+
+- CS2JLibrary: 
+
+     This contains the XML translation files that direct CS2J to
+     translate .Net framework calls into appropriate Java code, and
+     the CS2JLibrary Java support library that translated applications
+     include.
+
+     This work is licensed under the Apache License, Version 2.0
+     (http://www.apache.org/licenses/LICENSE-2.0).
+
+     
